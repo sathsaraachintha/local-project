@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "name": "Local Project",
+  "target": {
+    "framework": "arduino",
+    "board": "esp32:esp32:esp32s3",
+    "options": {
+      "CDCOnBoot": "cdc",
+      "CPUFreq": "240",
+      "DebugLevel": "none",
+      "DFUOnBoot": "default",
+      "EraseFlash": "none",
+      "EventsCore": "1",
+      "FlashMode": "qio",
+      "FlashSize": "16M",
+      "JTAGAdapter": "default",
+      "LoopCore": "1",
+      "MSCOnBoot": "default",
+      "PartitionScheme": "huge_app",
+      "PSRAM": "enabled",
+      "UploadMode": "default",
+      "UploadSpeed": "115200",
+      "USBMode": "hwcdc",
+      "ZigbeeMode": "default"
+    }
+  },
+  "serial": {
+    "baudRate": 115200
+  },
+  "build": {
+    "properties": []
+  },
+  "createdAt": "2026-11-06T09:53:59.063Z",
+  "updatedAt": "2026-11-06T10:05:42.486Z"
+}

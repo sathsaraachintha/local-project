@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "enforcementLevel": "strict",
+  "libraries": {
+    "manager": [
+      {
+        "name": "WiFi",
+        "version": "1.2.7",
+        "scope": "shared"
+      }
+    ],
+    "managerResolved": [
+      {
+        "name": "WiFi",
+        "version": "1.2.7"
+      }
+    ],
+    "git": [
+      {
+        "name": "LovyanGFX",
+        "url": "https://github.com/NORVIControllers/NORVI-X-Version-02",
+        "commit": "89bd31031d55013365495e0e631f2c4dcf75003d",
+        "contentSha256": "328ec2a11256b0682da91740797da5eb90880c6c7b278dc495959ce76da9f52e",
+        "subpath": "libraries/LovyanGFX-1.2.25",
+        "scope": "shared"
+      },
+      {
+        "name": "RTClib",
+        "url": "https://github.com/NORVIControllers/NORVI-X-Version-02",
+        "commit": "89bd31031d55013365495e0e631f2c4dcf75003d",
+        "contentSha256": "f20e3eb7ee6b81b49d27901dd99b7676fd34da174f0aeb76929b48a8cad96518",
+        "subpath": "libraries/RTClib-master",
+        "scope": "shared"
+      }
+    ]
+  }
+}
